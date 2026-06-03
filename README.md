@@ -2,7 +2,7 @@
 
 A Python implementation of Markowitz mean-variance optimisation applied to a UK multi-asset universe. Computes the efficient frontier, maximum Sharpe ratio portfolio, and minimum variance portfolio from five years of daily price data.
 
-![Efficient Frontier](outputs/efficient_frontier.png)
+![Efficient Frontier](outputs/efficient_frontier_with_random.png)
 
 ## About this project
 
@@ -35,6 +35,7 @@ Five years of daily prices (2020–2025) via yfinance.
 - Risk-free rate: 4% (UK 3-month gilt yield)
 - Efficient frontier traced by solving 100 constrained optimisations for target returns
 
+![Efficient Frontier](outputs/efficient_frontier.png)
 
 ## Correlation structure
 
